@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bag', 'Bike', 'Dog', 'Person', 'car']
+
+roboflow:
+  workspace: sarthaks-workspace-8qdbg
+  project: dataset-tsqus
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sarthaks-workspace-8qdbg/dataset-tsqus/dataset/1
